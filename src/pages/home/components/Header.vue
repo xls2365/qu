@@ -8,7 +8,7 @@
     输入城市/景点/游玩主题
   </div>
   <div class="header-right">
-    城市
+    北京
     <span class="iconfont arrow-icon">&#xe6aa;</span>
   </div>
 </div>
@@ -31,8 +31,8 @@ export default {
       width: .64rem
       float: left
       .back-icon
-          display: block
-          text-align: center
+        display: block
+        text-align: center
     .header-input
       flex: 1
       height:.64rem
