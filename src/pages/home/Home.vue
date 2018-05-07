@@ -1,10 +1,10 @@
 <template>
 <div>
   <home-header></home-header>
-  <home-swiper></home-swiper>
-  <home-icons></home-icons>
-  <home-recommend></home-recommend>
-  <home-weekend></home-weekend>
+  <home-swiper :list="swiperList"></home-swiper>
+  <home-icons :list="iconList"></home-icons>
+  <home-recommend :list="recommendList"></home-recommend>
+  <home-weekend :list="weekendList"></home-weekend>
 </div>
 </template>
 
@@ -49,6 +49,7 @@ export default {
         this.swiperList = data.swiperList
         this.iconList = data.iconList
         this.recommendList = data.recommendList
+        this.weekendList = data.weekendList
       }
     }
   },
